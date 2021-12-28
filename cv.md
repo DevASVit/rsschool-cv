@@ -5,6 +5,9 @@
 * **Instagram:** [devasvit](https://instagram.com/devasvit)
 * **Email:** <devasvit@gmail.com>
 
+## **Summary**
+I want to work in an IT company, so I try to learn something new all the time
+
 ## **Technical Skills**
 
 * HTML
