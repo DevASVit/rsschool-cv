@@ -23,6 +23,26 @@ a {
 .container {
 	margin: 0 auto;
 }
+.header {
+	padding: 0 0 40px;
+}
+.menu {
+	padding: 10px 40px;
+}
+.menu__list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.menu__link {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.menu__link:hover {
+	color: #e24c4f;
+	transition: color 0.3s;
+}
 .main-container {
 	padding: 0 0 40px;
 }
@@ -33,7 +53,7 @@ a {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-	padding: 40px 0;
+	padding: 40px 0 40px 0;
 }
 .dark-section {
 	color: #ffffff;
@@ -44,7 +64,7 @@ a {
 }
 .profile__img {
 	flex: 0 1 30%;
-	padding: 0 0 0 40px;
+	text-align: center;
 }
 .profile__photo {
 	width: 200px;
@@ -77,6 +97,7 @@ a {
 }
 .main__row {
 	display: flex;
+	flex-flow: row wrap;
 }
 .main__sidebar {
 	flex: 0 1 30%;
@@ -180,6 +201,30 @@ a {
 	font-size: 14px;
 	font-weight: 400;
 	color: #a8a8a8;
+}
+.footer-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 40px;
+}
+.footer__elem {
+	margin: 0 20px;
+	padding: 10px 0;
+}
+.footer__elem:first-child {
+	margin-left: 0;
+}
+.footer__elem:last-child {
+	margin-right: 0;
+}
+.git-link:hover {
+	color: #e24c4f;
+	transition: color 0.3s;
+}
+.course-link {
+	padding: 0;
 }
 @keyframes beat {
 	0% {
